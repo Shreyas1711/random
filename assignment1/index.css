@@ -1,0 +1,242 @@
+
+* {
+  margin: 0;
+}
+.topnav {
+  float: right;
+  padding: 0.5em;
+  margin-top: 2%;
+    background-color: #333;
+    overflow: hidden;
+    width: fit-content;
+  }
+ 
+  .topnav a {
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0em 6em;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: red;
+    color: white;
+  }
+  .logo{
+    height: 0.1em;
+    width: 0.1em;
+    float: left;
+    padding-left: 3%;
+  }
+  .logo img{
+    height: 5em;
+    width: 5em;
+    color: black;
+  }
+  .nav{
+width: 100%;
+  }
+  .mainImage{
+    padding-top: 7%;
+  }
+  .mainImage img, .mainImage1 img{
+    width:100%;
+    height: auto;
+
+  }
+  .mainText{
+    padding: 2em 0 2em 0;
+    text-align: center;
+  }
+  .mainText h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .mainText1{
+    padding: 2em 0 2em 0;
+    text-align: center;
+  }
+  .mainText1 h1{
+    font-size: 3em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .mainText1 p{
+    font-size: 1.5em;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    float: left;
+    width: 40%;margin: 5%;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    text-align: center;
+    padding: 30px 16px;
+  }
+  .sec{
+    height: 100%;
+  }
+  .footer{
+    background-color: #333;
+    color: white;
+  }
+  .footer1{
+    background-color: #333;
+    color: white;
+    height: 10%;
+    margin-top: 5%;
+    padding: 2%;
+  }
+  .leftdiv{
+    float: left;
+    padding-left: 10%;
+  }
+  .leftdiv a,.rightdiv a{
+    color: white;
+  }
+.rightdiv{
+  float: right;
+  padding-right: 15%;
+}
+.maincontent1{
+  text-align: center;
+  padding: 10%;
+}
+.maincontent2{
+  text-align: center;
+  padding: 5%;
+}
+.maincontent1 p{
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.maincontent1 button{
+  background-color:#333333;
+  color: white;
+  padding: 0.5em;
+  margin-top: 1rem;
+  border-radius: 15px;
+}
+.widthimage{
+  width: 33.333%;
+  
+  float: left;
+  
+}
+.widthimage img{
+  height: 80% ;
+  width: 100%;
+}
+.heightdiv{
+  height: 50%;
+}
+.section1 img{
+  margin-top: 1%;
+  width: 100%;
+  height: auto;
+}
+.section2{
+  padding: 10%;
+  height: 30vh;
+}
+.section2 .min1{
+  width: 50%;
+  float: left;
+  margin-top: 7%;
+
+}
+.section2 .min2 img{
+  float: right;
+  width: 50%;
+}
+.button12{
+ margin-top: 5%;
+  font-style: italic;
+  text-decoration-line: underline;
+  color: black;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column img{
+  width: 100%;
+  height: 50vh;
+}
+.column h3{
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+.column a{
+  
+  position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    line-height: normal;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: transparent;
+    -webkit-transition: background-color .3s ease-out,color .3s ease-out,border-color .3s ease-out;
+    transition: background-color .3s ease-out,color .3s ease-out,border-color .3s ease-out;
+    z-index: 1;
+    -webkit-tap-highlight-color: initial;
+    font-family: Helvetica Neue,Helvetica,san-serif;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 40px;
+    border: 1px solid #000;
+    color: #000 !important;
+    padding: 0 40px;
+    margin-top: 0;
+    min-width: 175px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.terms{
+  text-align: center;
+  padding: 5%;
+  text-indent: 1rem;
+  text-justify:newspaper;
+}
+.terms h1{
+  margin-top: 5%;
+}
